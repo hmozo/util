@@ -14,6 +14,8 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>util</name>
 	<description>Util service</description>
+	
+	<packaging>jar</packaging>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -46,10 +48,10 @@
 
 	<build>
 		<plugins>
-			<plugin>
+			<!-- <plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
+			</plugin> -->
 		</plugins>
 	</build>
 
